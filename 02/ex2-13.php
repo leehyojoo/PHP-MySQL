@@ -1,4 +1,4 @@
 <?php
     $x = NULL;    
-    var_dump($x);
+    var_dump($x);    // NULL
 ?>
