@@ -1,4 +1,5 @@
 <?php
+// if~ else~ 구문
  	$num = 12;
              
  	if ($num%2 == 0) {

@@ -1,4 +1,5 @@
 <?php
+// 이중 for문으로 <table>태그 이용해 구구단표 출력
     $string = "";
     $string .= "<table border='1'>";
     for ($i=2; $i<=9; $i++) {

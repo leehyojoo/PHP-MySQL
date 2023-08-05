@@ -1,5 +1,7 @@
 <?php
-    $string = "";
+// $string에 table을 저장하여 한 번에 출력
+
+    $string = "";     // $string을 Null로 초기화
 
     $string .= "<table border='1'>";
     $string .= "<tr><th width='100'>섭씨</th><th width='100'>화씨</th>";
@@ -10,5 +12,5 @@
     }
     $string .= "</table>"; 
 
-    echo $string;
+    echo $string;     // echo문을 한 번만 사용하여 table을 출력 
 ?>

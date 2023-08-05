@@ -3,7 +3,7 @@
     $silgi = 90;
 	$result = "불합격";
              
- 	if ($pilgi >= 70 and $silgi >= 70) {
+ 	if ($pilgi >= 70 and $silgi >= 70) {     // and == &&
 		$result = "합격";
 	}
 

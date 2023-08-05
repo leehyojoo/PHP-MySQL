@@ -1,4 +1,6 @@
 <?php
+// 만 나이 계산하기 (if문의 중첩)
+
    	$now_year = 2022;
    	$now_month = 4;
    	$now_day = 15;

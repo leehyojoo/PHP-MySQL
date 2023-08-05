@@ -1,10 +1,11 @@
 <?php
+//switch문
    	$my_color = "노랑";
 
     switch($my_color) {
         case "빨강" :
             echo "나는 ".$my_color."을 좋아합니다.";
-            break;
+            break;       // break를 통해 switch문 벗어남
         case "노랑" :
             echo "나는 ".$my_color."을 좋아합니다.";
             break;

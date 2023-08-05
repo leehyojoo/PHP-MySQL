@@ -1,4 +1,5 @@
 <?php
+// 점수에 따라 학점 계산(if~ elseif~ else~ 구문)
     $score = 83;
 
     if ($score>=95)
