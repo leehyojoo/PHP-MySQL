@@ -1,4 +1,5 @@
 <?php      
+// 산술연산자 (Arithmetic Operator)
     $a = 17;
     $b = $a % 10;
     echo $b;
