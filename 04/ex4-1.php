@@ -1,4 +1,5 @@
 <?php
+// abs()와 round() 함수 => 내장 함수
     $x = -7;
     $value1 = abs($x);      // 절대값
     echo $x."의 절댓값 : ".$value1."<br>";  

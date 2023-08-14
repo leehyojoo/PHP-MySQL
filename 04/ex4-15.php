@@ -1,4 +1,6 @@
 <?php 
+// 2차원 배열 -> array (      array(), array(), ... , array()       )
+
     $score = array(array(88, 98, 96, 77, 98), 
                 array(86, 77, 86, 84, 95),
                 array(84, 83, 95, 86, 93));

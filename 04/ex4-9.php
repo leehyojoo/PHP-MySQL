@@ -1,4 +1,5 @@
 <?php
+// 함수로 놀이 공원 입장료 계산하기
    	function ticket1($day, $age) {      // 일반 입장권 요금
       	if ( $day == "주간" ) {
 	            if ($age> 12 and $age < 65)
@@ -55,10 +56,13 @@
        3 : 2일 이용권, 4 : 콤비권
     */
 
+	/* 메인 루틴  */
+
    	$category = 2;          // $category : 구분
    	$age = 20;              // $age : 나이
    	$day = "야간";          // $day : "주간" 또는 "야간"
 
+	/* 입장료 계산  */
    	if( $category == 1 )
        	$pay = ticket1($day, $age);
    	elseif ( $category == 2 )
@@ -68,6 +72,7 @@
    	else
        	$pay = ticket4($age);
 
+	/* 카테고리 저장  */
    	if( $category == 1 )
        	$cat = "일반 입장권";
    	elseif ( $category == 2 )
@@ -77,6 +82,7 @@
     else
        	$cat = "콤비권";
 
+		/* 카테고리 및, 주간/야간, 나이, 입장료 출력 */
    	echo "구분 : ".$cat."<br>";
 	if ($category == 1 or $category==2)
 	    echo "주간/야간 : ".$day."<br>";
