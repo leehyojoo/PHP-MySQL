@@ -1,4 +1,5 @@
 <?php
+// str_replace() : 문자열을 특정 문자열로 변환
     $tel = "2022-10-30";
     $tel2 = str_replace("-", "/", $tel);
     echo $tel2."<br>";

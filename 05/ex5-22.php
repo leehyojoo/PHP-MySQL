@@ -1,4 +1,5 @@
 <?php
+// 시간 차 계산하기
     $current_time = time();
 
     $time_diff = 2 * 24 * 60 * 60;     //  초 단위, 2일의 기간
